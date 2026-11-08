@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Karmakar Electric, Asansol — fans, lighting, home appliances and electrical essentials.">
+  <title>Karmakar Electric | Super Stars for Your Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="top-strip">Your trusted electrical & home appliance store in Asansol</div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Karmakar Electronic home">
+      <span class="brand-mark">K<span>✦</span></span>
+      <span class="brand-copy"><strong>KARMAKAR</strong><small>ELECTRONIC</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#categories">Categories</a>
+      <a class="nav-link" href="#products">Products</a>
+      <a class="nav-link" href="#why-us">Why Us</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="#products">Explore products <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> LIGHT UP YOUR EVERYDAY</p>
+        <h1>Make your home<br><em>shine brighter.</em></h1>
+        <p class="hero-desc">Discover dependable electrical products, fans and home appliances — all in one place at Karmakar Electric.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#products">Explore products <span>→</span></a>
+          <a class="text-link" href="#contact">Visit our store <span>↗</span></a>
+        </div>
+        <div class="hero-note"><span class="note-icon">✦</span><span><b>SUPER STARS FOR YOUR HOME</b><small>Quality essentials. Everyday comfort.</small></span></div>
+      </div>
+      <div class="hero-art" aria-label="Featured electrical products">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-product hero-tv"><img src="tv.png" alt="Smart LED television"></div>
+        <div class="hero-product hero-fan"><img src="fan.png" alt="Modern ceiling fan"></div>
+        <div class="hero-product hero-bulb"><img src="bulb.png" alt="LED light bulb"></div>
+        <div class="floating-tag tag-one">✦ Everyday comfort</div>
+        <div class="floating-tag tag-two">Smart choices</div>
+      </div>
+      <a class="scroll-cue" href="#categories"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="trust-row" aria-label="Store highlights">
+      <div><b>01</b><span>Home essentials</span></div><div><b>02</b><span>Fans & lighting</span></div><div><b>03</b><span>Helpful service</span></div><div><b>04</b><span>Local store in Asansol</span></div>
+    </section>
+
+    <section class="section categories-section" id="categories">
+      <div class="section-heading">
+        <div><p class="eyebrow">SHOP BY CATEGORY</p><h2>Find what your home <em>needs.</em></h2></div>
+        <p>Explore popular categories and find the right essentials for every corner of your home.</p>
+      </div>
+      <div class="category-grid">
+        <button class="category-card" data-filter="Fans"><span class="category-icon">〰</span><strong>Fans</strong><small>Cooling made comfortable</small><span class="category-arrow">↗</span></button>
+        <button class="category-card" data-filter="Lighting"><span class="category-icon">✧</span><strong>Lighting</strong><small>Bright ideas for every room</small><span class="category-arrow">↗</span></button>
+        <button class="category-card" data-filter="Appliances"><span class="category-icon">⌂</span><strong>Appliances</strong><small>Everyday life, made easier</small><span class="category-arrow">↗</span></button>
+        <button class="category-card" data-filter="Electronics"><span class="category-icon">▣</span><strong>Electronics</strong><small>Entertainment & more</small><span class="category-arrow">↗</span></button>
+      </div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="section-heading product-heading">
+        <div><p class="eyebrow">OUR PICKS</p><h2>Popular <em>products.</em></h2></div>
+        <div class="product-tools">
+          <label class="search-box"><span>⌕</span><input id="productSearch" type="search" placeholder="Search products..." aria-label="Search products"></label>
+        </div>
+      </div>
+      <div class="filter-row" id="filterRow">
+        <button class="filter-btn active" data-filter="All">All products</button>
+        <button class="filter-btn" data-filter="Fans">Fans</button>
+        <button class="filter-btn" data-filter="Lighting">Lighting</button>
+        <button class="filter-btn" data-filter="Appliances">Appliances</button>
+        <button class="filter-btn" data-filter="Electronics">Electronics</button>
+      </div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-category="Fans" data-name="Ceiling Fan">
+          <div class="product-image"><span class="product-label">POPULAR</span><img src="fan.png" alt="Ceiling fan"><button class="quick-view" data-product="Ceiling Fan">Quick view ↗</button></div>
+          <div class="product-info"><div><p>FANS</p><h3>Ceiling Fan</h3></div><button class="add-inquiry" data-product="Ceiling Fan" aria-label="Add Ceiling Fan to enquiry">+</button></div>
+        </article>
+        <article class="product-card" data-category="Lighting" data-name="LED Bulb">
+          <div class="product-image"><span class="product-label">ENERGY SAVING</span><img src="bulb.png" alt="LED bulb"><button class="quick-view" data-product="LED Bulb">Quick view ↗</button></div>
+          <div class="product-info"><div><p>LIGHTING</p><h3>LED Bulb</h3></div><button class="add-inquiry" data-product="LED Bulb" aria-label="Add LED Bulb to enquiry">+</button></div>
+        </article>
+        <article class="product-card" data-category="Appliances" data-name="Mixer Grinder">
+          <div class="product-image"><span class="product-label">HOME ESSENTIAL</span><img src="mixer.png" alt="Mixer grinder"><button class="quick-view" data-product="Mixer Grinder">Quick view ↗</button></div>
+          <div class="product-info"><div><p>APPLIANCES</p><h3>Mixer Grinder</h3></div><button class="add-inquiry" data-product="Mixer Grinder" aria-label="Add Mixer Grinder to enquiry">+</button></div>
+        </article>
+        <article class="product-card" data-category="Fans" data-name="Table Fan">
+          <div class="product-image"><span class="product-label">COMPACT PICK</span><img src="tablefan.png" alt="Table fan"><button class="quick-view" data-product="Table Fan">Quick view ↗</button></div>
+          <div class="product-info"><div><p>FANS</p><h3>Table Fan</h3></div><button class="add-inquiry" data-product="Table Fan" aria-label="Add Table Fan to enquiry">+</button></div>
+        </article>
+        <article class="product-card" data-category="Electronics" data-name="Smart LED TV">
+          <div class="product-image"><span class="product-label">ENTERTAINMENT</span><img src="tv.png" alt="Smart LED TV"><button class="quick-view" data-product="Smart LED TV">Quick view ↗</button></div>
+          <div class="product-info"><div><p>ELECTRONICS</p><h3>Smart LED TV</h3></div><button class="add-inquiry" data-product="Smart LED TV" aria-label="Add Smart LED TV to enquiry">+</button></div>
+        </article>
+      </div>
+      <p class="empty-state" id="emptyState" hidden>No matching products found. Try another search.</p>
+      <div class="catalog-note">Product images are illustrative. Availability, brands and prices can be confirmed directly with the store.</div>
+    </section>
+
+    <section class="feature-band" id="why-us">
+      <div class="feature-visual"><div class="feature-circle">✦</div><div class="feature-word">HOME<br>HAPPINESS</div></div>
+      <div class="feature-content"><p class="eyebrow">THE KARMAKAR DIFFERENCE</p><h2>Good products.<br><em>Better everyday living.</em></h2><p>From a brighter room to a cooler afternoon, the right electrical essentials make a difference. We’re here to help you choose what fits your home.</p>
+        <div class="feature-points"><div><span>✓</span><b>Everyday essentials</b><small>Products for your home and lifestyle</small></div><div><span>✓</span><b>Local store support</b><small>Speak with us about product options</small></div><div><span>✓</span><b>Simple enquiries</b><small>Ask about availability and pricing</small></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="contact-copy"><p class="eyebrow">LET'S CONNECT</p><h2>Need help choosing<br><em>the right product?</em></h2><p>Contact Karmakar Electric for product details, availability and store information.</p></div>
+      <div class="contact-card"><div class="contact-card-top"><span class="contact-symbol">K✦</span><span class="open-label"><i></i> HERE TO HELP</span></div><h3>Karmakar Electric</h3><p>Asansol, West Bengal, India</p><div class="contact-divider"></div><a href="https://www.google.com/maps/search/?api=1&query=Karmakar+Electric+Asansol" target="_blank" rel="noopener">Find us on Google Maps <span>↗</span></a><a href="#" id="whatsappLink" class="contact-whatsapp">Enquire on WhatsApp <span>↗</span></a><small>Update the WhatsApp number in <code>script.js</code> before publishing.</small></div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">K<span>✦</span></span><span class="brand-copy"><strong>KARMAKAR</strong><small>ELECTRIC</small></span></a><p>SUPER STARS FOR YOUR HOME</p><span>© <span id="year"></span> Karmakar Electric. All rights reserved.</span></footer>
+
+  <div class="modal-backdrop" id="modalBackdrop" hidden>
+    <section class="product-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <div class="modal-image"><img id="modalImage" src="assets/fan.png" alt=""></div>
+      <div class="modal-copy"><p class="eyebrow" id="modalCategory">PRODUCT DETAILS</p><h2 id="modalTitle">Ceiling Fan</h2><p id="modalDescription">A useful home essential. Contact the store to ask about available brands, models and pricing.</p><button class="btn btn-primary" id="modalEnquire">Enquire about this <span>→</span></button></div>
+    </section>
+  </div>
+
+  <aside class="inquiry-drawer" id="inquiryDrawer" aria-live="polite">
+    <div><b>Enquiry list</b><span id="inquiryCount">0 items</span></div><p id="inquiryItems">Add products to prepare an enquiry.</p><button id="sendInquiry" class="drawer-send" disabled>Send enquiry ↗</button>
+  </aside>
+  <script src="script.js"></script>
+</body>
+</html>
